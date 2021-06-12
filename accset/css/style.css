@@ -1,0 +1,499 @@
+/* Reset Css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Comon */
+.justify-content-center {
+    justify-content: center !important;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 484px;
+    max-width: 960px;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.3;
+    margin: auto;
+    
+
+    
+}
+.row{
+    color: white;
+    
+}
+.col{
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 3px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+.col-thir{
+    width: 33.333333333%;
+}
+.col-four{
+    width: 23%;
+    height: 80%;
+}
+.bg-ccc{
+    background-color: rgba(0, 0, 0, 0.03) !important;
+}
+.no-bx{
+    box-shadow: none !important;
+}
+.tw{
+    color: #fff;
+}
+.font-normal{
+
+}
+/* Main */
+
+.main{
+
+}
+#Header-content{
+    display: flex;
+    background: #fff;
+    height: 80px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px;
+}
+.header-logo{
+    padding-left: 10px;
+
+}
+.header-img{
+    max-width: 150px;
+    margin-top: 22px;
+    width: 100%;
+}
+
+#header-content .nav {
+    z-index: 1px;
+    opacity: 0.8;
+
+}
+.nav .navlist{
+    padding-right: 30px;
+    padding-left: 20px;
+    
+    
+}
+.nav .navlist li {
+    display: inline-block;
+    padding:10px;
+    margin-top: 16px;
+    font-weight: 540;
+    
+}
+.nav .navlist li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing:1.9;
+
+}
+.nav .btn-dangnhap{
+    display: inline-block;
+    border:none;
+    
+}
+.nav .btn-dangnhap .btn-color{
+    color: #fff;
+    background-color: #E0004D;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.nav .navlist li:hover a{
+    color: #E0004D;
+}
+
+.main-content{
+    
+    height: 484px;
+}
+   
+.main-content{
+    background-image: url('https://isofhcare-backup.s3-ap-southeast-1.amazonaws.com/images/bg1_40fb0d4f_fd4d_4aa5_87e1_92260f1f638d.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.selector-1{
+
+}
+
+.Baned-selecor{
+    
+}
+.selec-titlle{
+    color: #fff;
+    font-size: 36px;
+
+}
+.selec-para{
+    color: #fff;
+    font-size: 20px;
+    margin: 5px 0px;
+
+}
+.sreach-box{
+    margin-top: 30px;
+    position: relative;
+
+}
+.search-input{
+    font-size: 24px;
+    line-height: 30px;
+    border: 4.29867px solid #E0004D;
+    border-radius: 34.3893px;
+    height: 68.78px;
+    width: 100%;
+    text-align: center;
+    opacity: 90%;
+
+}
+/* Our services */
+.our-services{
+    margin: 85px 0px;
+    height: 427px;
+    
+}
+.container1{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    height: 100%;    
+
+}
+.services-tittle{
+    margin-bottom: 23px;
+    font-size: 28px;
+}
+.services-content{
+    overflow: hidden;
+    height: 100%;
+}
+.services-list{
+    float: left;
+    width: 22%;
+    margin: 7px;
+    height: 84%;
+    margin: 10px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.divider{
+    width: 50px;
+    height: 3px;
+    background-color: #00cba7;
+    margin: 15px auto;
+}
+.services-img{
+
+}
+.info{
+    margin: 2.0em;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #2f3035;
+}
+
+.sr-img{
+    width:30%;
+    margin: 20px 77px;
+}
+.img-loi{
+    border-radius: 50%;
+}
+
+
+/* slide */
+.slide{
+    width: 100%;
+    height: 400px;
+    vertical-align: middle;
+    border-style: none;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+
+.Top-hopital{
+    padding: 85px 0px;
+}
+
+.hopital-list{
+    
+}
+.hp-list-img{
+    object-fit: contain;
+    height: 188px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+
+}
+.hopital-info{
+
+}
+.name-hp{
+    min-height: 55px;
+    display: block;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #2f3035;
+    display: inline-block;
+    margin-left: 7px;
+    padding-top: 0.5rem;
+
+}
+.adss-hp{
+    min-height: 50px;
+    display: block;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    padding-left: 10px;
+    margin: 1em 0;
+    color: #86899b;
+    
+}
+.nut-btn{
+    background-color: #E0004D;
+    padding: 7px 17px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    color: #ffff;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.nut-btn:hover{
+    background-color: #fff;
+    color:#E0004D;
+}
+
+
+/* Top-doctor */
+/* .Top-doctor{
+    background-color: rgba(0, 0, 0, 0.03);
+    width: 100%;
+    height: 463px;
+} */
+.Td-aroud{ 
+    padding: 44px;
+ 
+
+}
+.td-header{
+    width: 930px;
+    height: 51px;
+    padding: 0px 15px;
+    margin: 0 50px;
+    
+}
+.container2{
+    display: flex;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    height: 100%;  
+}
+.container2  .td-info{
+    flex:33.333333%;
+    padding-right: 10px;
+
+}
+.container2 .para-info{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2f3035
+}
+.container2 .td-info-img{
+width: 100%;
+background-color: #ccc;
+}
+
+.container2 .td-list{
+    display: flex;
+    flex: 66.666667%;
+
+}
+.doctor-img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    height: 205px;
+    width: 100%;
+
+}
+
+.Td-nameadd{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #86899b;
+    margin: 0.3rem;
+}
+.booking-cout{
+    font-size: 15px;
+    line-height: 16px;
+    color: #4f5054;
+    display: block;
+    padding-left:5px ;
+}
+
+
+/* CAm hang-hanbook */
+.Hb-img{
+    width: 100%;
+}
+.hb-text{
+    padding-left: 5px;
+    padding-bottom: 10px;
+
+}
+.hb-date{
+    opacity:0.6;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+
+/* Footer */
+.footer{
+    height: 500px;
+    background-color: #2f3035;
+}
+.row-footer{
+    padding: 15px 35px;
+    height: 100%;
+}
+.footer .icon{
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.foot-info{
+
+}
+.foot-h3{
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+
+}
+.foot-h4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+/* foot-title */
+.foot-title{
+    padding: 17px 20px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    padding: 1.2rem 0;
+    padding-left: 10px;
+    text-decoration-line: underline;
+
+}
+.icon-1{
+    width: 80%;
+}
+.link-list{
+    margin-top: 45px;
+}
+.title-2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #ffffff;
+}
+
+.foot-sub{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
+.icon-3{
+    float: left;
+    display: inline-block;
+    padding-top: -10px;
+}
+.foot-h5{
+
+}
+.dl-app{
+    color:#E0004D;
+    padding: 0px;
+    display: flex;
+}
+.icon-2{
+    width: 100%;
+}
+
+
+
+
+
+
+

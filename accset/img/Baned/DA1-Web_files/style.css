@@ -1,0 +1,157 @@
+/* Reset Css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Comon */
+.justify-content-center {
+    justify-content: center !important;
+    text-align: center;
+}
+/* .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    
+}
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+
+} */
+
+
+
+
+
+
+.main{
+
+}
+#Header-content{
+    display: flex;
+    background: #fff;
+    height: 80px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px;
+}
+.header-logo{
+    padding-left: 10px;
+
+}
+.header-img{
+    max-width: 150px;
+    margin-top: 22px;
+    width: 100%;
+}
+
+#header-content .nav {
+    z-index: 1px;
+    opacity: 0.8;
+
+}
+.nav .navlist{
+    padding-right: 30px;
+    padding-left: 20px;
+    
+    
+}
+.nav .navlist li {
+    display: inline-block;
+    padding:10px;
+    margin-top: 16px;
+    font-weight: 540;
+    
+}
+.nav .navlist li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    letter-spacing:1.9;
+
+}
+.nav .btn-dangnhap{
+    display: inline-block;
+    border:none;
+    
+}
+.nav .btn-dangnhap .btn-color{
+    color: #fff;
+    background-color: #E0004D;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.nav .navlist li:hover a{
+    color: #E0004D;
+}
+
+.main-content{
+    
+    height: 484px;
+}
+   
+.main-content{
+    background-image: url('https://isofhcare-backup.s3-ap-southeast-1.amazonaws.com/images/bg1_40fb0d4f_fd4d_4aa5_87e1_92260f1f638d.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.selector-1{
+
+}
+.container{
+    display: flex;
+    height: 484px;
+
+}
+.row{
+    margin: auto;
+}
+.Baned-selecor{
+    
+}
+.selec-titlle{
+    color: #fff;
+    font-size: 36px;
+
+}
+.selec-para{
+    color: #fff;
+    font-size: 20px;
+    margin: 5px 0px;
+
+}
+.sreach-box{
+    margin-top: 30px;
+    position: relative;
+
+}
+.search-input{
+    font-size: 24px;
+    line-height: 30px;
+    border: 4.29867px solid #E0004D;
+    border-radius: 34.3893px;
+    height: 68.78px;
+    width: 100%;
+    text-align: center;
+    
+
+}
+.ti-search{
+    display: inline block;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: -15px;
+    position: absolute;
+    top: auto;
+    
+}
